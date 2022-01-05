@@ -8,6 +8,7 @@
       <button type="button" class="btn btn-lg btn-danger mt-1" @click="$store.game.configure({ width: 30, height: 16, number_of_bombs: 99 })">Expert</button>
     </div>
   </template>
+  <h1> salut </h1>
 
   <%= if length(@games) >= 1 do %>
     <div id="previous-games" class="container mt-5 text-center">
